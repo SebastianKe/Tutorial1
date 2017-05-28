@@ -43,7 +43,7 @@ public class AktienlisteFragment extends Fragment{
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Wir prüfen, ob Menü-Element mit der ID "action_daten_aktualisieren"
-        // ausgewählt wurde und geben eine Meldung als Toast aus
+        // ausgewählt wurde und geben eine Meldung als Toast aus!
         int id = item.getItemId();
         if (id == R.id.action_daten_aktualisieren) {
             Toast.makeText(getActivity(), "Aktualisieren gedrückt!", Toast.LENGTH_LONG).show();
